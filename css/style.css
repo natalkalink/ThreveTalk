@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+body{
+   font-family: "Montserrat";
+   color:rgba(34, 53, 111, 0.5)
+}
+.wrapper{
+   overflow: hidden;
+   min-height: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+}
+.wrapper > main{
+   flex-grow: 1;
+}
+[class*=__container]{
+   max-width: 1275px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
